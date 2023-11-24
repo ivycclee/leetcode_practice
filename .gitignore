@@ -1,0 +1,12 @@
+
+.vs/LeetcodePractice/FileContentIndex/c3b5a347-e98e-432e-ab1e-c75ad6aa9f92.vsidx
+.vs/LeetcodePractice/v17/.suo
+.vs/LeetcodePractice/v17/Browse.VC.db
+.vs/LeetcodePractice/v17/ipch/AutoPCH/75ac8480b849d642/LEETCODE.ipch
+*.vsidx
+*.db-shm
+*.db-wal
+*.opendb
+*.obj
+/x64/debug
+*.user

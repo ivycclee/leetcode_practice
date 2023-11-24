@@ -198,7 +198,20 @@ public:
         queue<int> _q;
     };
 
-    // Easy 
+    // Medium - maximum number of coins
+    static int maxCoins(vector<int>& piles) {
+        int coinsPerPerson = piles.size() / 3;
+        int sum = 0;
+
+        sort(piles.begin(), piles.end());       // sort in order
+
+        for (int i = coinsPerPerson; i < piles.size(); i += 2)
+            sum += piles[i];
+
+       return sum;
+
+    }
+
     
 }; // end of Solution
 
