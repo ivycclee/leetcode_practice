@@ -1,5 +1,6 @@
 #include <vector>
 #include <string>
+#include <map>
 
 using namespace std;
 
@@ -7,50 +8,50 @@ using namespace std;
 class FoodRatings {
 public:
     FoodRatings(vector<string>& foods, vector<string>& cuisines, vector<int>& ratings) {
-        _foods = foods;
+        /*_foods = foods;
         _cuisines = cuisines;
-        _ratings = ratings;
+        _ratings = ratings;*/
+        for (int i = 0; i < foods.size(); i++)
+        {
+            cuisineFood[cuisines[i]].push_back(foods[i]);
+            foodRating.insert( { foods[i], ratings[i] });
+        }
     }
 
     void changeRating(string food, int newRating) {
-        for (int i = 0; i < _foods.size(); i++)
-        {
-            if (_foods[i].compare(food) == 0)
-                _ratings[i] = newRating;
-        }
+            foodRating[food] = newRating;
+        
     }
 
     string highestRated(string cuisine) {
-        vector<int> foodOfCuisine;
-        int indexOfHighestRated = 0, highestRatingValue = 0;
+        vector<string> foodsOfCuisine = cuisineFood.at(cuisine);
+        int currentHighestRating = 0;
+        string highestRatedFood = "";
 
-        // get list of food that are of that cuisine
-        for (int i = 0; i < _foods.size(); i++)
+        for (int i = 0; i < foodsOfCuisine.size(); i++)
         {
-            if (!_cuisines[i].compare(cuisine))     // returns 0 if equal
-                foodOfCuisine.push_back(i);
-        }
-
-        for (int i = 0; i < foodOfCuisine.size(); i++)
-        {
-            if (_ratings[foodOfCuisine[i]] > highestRatingValue)
+            if (foodRating.at(foodsOfCuisine[i]) > currentHighestRating)
             {
-                highestRatingValue = _ratings[foodOfCuisine[i]];
-                indexOfHighestRated = foodOfCuisine[i];
+                currentHighestRating = foodRating.at(foodsOfCuisine[i]);
+                highestRatedFood = foodsOfCuisine[i];
             }
 
-            if ((highestRatingValue > 0) && (_ratings[foodOfCuisine[i]] == highestRatingValue))
+            if (foodRating.at(foodsOfCuisine[i]) == currentHighestRating)
             {
-                if (_foods[indexOfHighestRated].compare(_foods[foodOfCuisine[i]]) < 0)
-                    indexOfHighestRated = foodOfCuisine[i];
+                if (foodsOfCuisine[i].compare(highestRatedFood) < 0)
+                    highestRatedFood = foodsOfCuisine[i];
             }
+
         }
 
-        return _foods[indexOfHighestRated];
+        return highestRatedFood;
     }
 
 private:
-    vector<string> _foods;
+    /*vector<string> _foods;
     vector<string> _cuisines;
-    vector<int> _ratings;
+    vector<int> _ratings;*/
+    
+    map<string, vector<string>> cuisineFood;
+    map<string, int> foodRating;
 };
