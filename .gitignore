@@ -10,3 +10,4 @@
 *.obj
 /x64/debug
 *.user
+*.ipch

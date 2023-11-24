@@ -2,6 +2,8 @@
 #include <string>
 #include <algorithm>
 #include <queue>
+#include "FoodRatings.cpp"
+
 using namespace std;
 
 struct TreeNode {
@@ -15,58 +17,6 @@ struct TreeNode {
 
 class Solution {
 public:
-    // Medium
-    class FoodRatings {
-    public:
-        FoodRatings(vector<string>& foods, vector<string>& cuisines, vector<int>& ratings) {
-            _foods = foods;
-            _cuisines = cuisines;
-            _ratings = ratings;
-        }
-
-        void changeRating(string food, int newRating) {
-            for (int i = 0; i < _foods.size(); i++)
-            {
-                if (_foods[i].compare(food) == 0)
-                    _ratings[i] = newRating;
-            }
-        }
-
-        string highestRated(string cuisine) {
-            vector<int> foodOfCuisine;
-            int indexOfHighestRated = 0, highestRatingValue = 0;
-
-            // get list of food that are of that cuisine
-            for (int i = 0; i < _foods.size(); i++)
-            {
-                if (!_cuisines[i].compare(cuisine))     // returns 0 if equal
-                    foodOfCuisine.push_back(i);
-            }
-
-            for (int i = 0; i < foodOfCuisine.size(); i++)
-            {
-                if (_ratings[foodOfCuisine[i]] > highestRatingValue)
-                {
-                    highestRatingValue = _ratings[foodOfCuisine[i]];
-                    indexOfHighestRated = foodOfCuisine[i];
-                }
-
-                if ((highestRatingValue > 0) && (_ratings[foodOfCuisine[i]] == highestRatingValue))
-                {
-                    if (_foods[indexOfHighestRated].compare(_foods[foodOfCuisine[i]]) < 0)
-                        indexOfHighestRated = foodOfCuisine[i];
-                }
-            }
-
-            return _foods[indexOfHighestRated];
-        }
-
-    private:
-        vector<string> _foods;
-        vector<string> _cuisines;
-        vector<int> _ratings;
-    };
-
     // Medium
     static vector<int> findDiagonalOrder(vector<vector<int>>& nums) {
         vector<int> returnVector;
@@ -218,6 +168,17 @@ public:
 
 int main(int argc, char const* argv[])
 {
+    vector<string> f{ "kimchi", "miso", "sushi", "moussaka", "ramen", "bulgogi" };
+    vector<string> c{ "korean", "japanese", "japanese", "greek", "japanese", "korean" };
+    vector<int> r{ 9, 12, 8, 15, 14, 7 };
+
+    FoodRatings food{f, c, r};
+    food.highestRated("korean");
+    food.highestRated("japanese");
+    food.changeRating("sushi", 16);
+    food.highestRated("japanese");
+    food.changeRating("ramen", 16);
+    food.highestRated("japanese");
 
     return 0;
 }
