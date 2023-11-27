@@ -5,6 +5,8 @@
 using namespace std;
 
 // medium (problem no. 2353) design a food rating system
+
+// this works, but is not accepted due to exceeding time limit on a test case
 class FoodRatings {
 public:
     FoodRatings(vector<string>& foods, vector<string>& cuisines, vector<int>& ratings) {
