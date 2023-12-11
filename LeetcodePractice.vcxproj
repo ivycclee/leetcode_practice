@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="FoodRatings.cpp" />
     <ClCompile Include="leetcode.cpp" />
+    <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="SumAbsoluteDifferences.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
