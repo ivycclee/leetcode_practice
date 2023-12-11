@@ -15,5 +15,8 @@
     <ClCompile Include="SumAbsoluteDifferences.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="longestConsecutive.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
