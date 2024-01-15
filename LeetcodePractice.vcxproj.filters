@@ -18,5 +18,8 @@
     <ClCompile Include="longestConsecutive.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="findWinners.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
