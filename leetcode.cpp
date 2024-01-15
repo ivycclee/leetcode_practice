@@ -5,6 +5,7 @@
 #include "FoodRatings.cpp"
 #include "SumAbsoluteDifferences.cpp"
 #include "longestConsecutive.cpp"
+#include "findWinners.cpp"
 
 using namespace std;
 
@@ -170,10 +171,9 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    //vector<int> nums{ 100, 4, 200, 1, 3, 2 };
-    vector<int> nums{ 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
+    vector<vector<int>> matches = { {1,3} ,{2,3}, {3,6}, {5,6}, {5,7}, {4,5}, {4,8}, {4,9}, {10,4}, {10,9} };
 
-    int ans = LongestConsecutiveSequence::longestConsecutive(nums);
+    vector<vector<int>> ans = FindWinners::findWinners(matches);
 
 
 }
