@@ -7,6 +7,7 @@
 #include "longestConsecutive.cpp"
 #include "findWinners.cpp"
 #include "uniqueOccurrences.cpp"
+#include "arrayStringsEquivalent.cpp"
 
 using namespace std;
 
@@ -172,7 +173,8 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<vector<int>> matches = { {1, 1000} };
+    vector<string> str1 = { "abc", "d", "defg" };
+    vector<string> str2 = { "abcddefg" };
 
-    FindWinners::findWinners(matches);
+    bool ans = ArrayStringsEquivalent::arrayStringsAreEqual(str1, str2);
 }
