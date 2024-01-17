@@ -3,7 +3,7 @@ using namespace std;
 #include <vector>
 #include <map>
 
-// attempted - time limit exceeded on test case 98
+// no. 2225 [ accepted ]
 class FindWinners
 {
 public:
@@ -11,20 +11,24 @@ public:
         vector<vector<int>> ans;
         ans.resize(2);
         int arrSize = matches.size();
-        map<int, pair<int, int>> winLossCount; // wins and losses
-        int highestNumPlayer = 0;
+      
+        map<int, int> loss;
 
-        for (int i = 0; i < arrSize; i++) {
-            winLossCount[matches[i][0]].first++;  // wins
-            winLossCount[matches[i][1]].second++; // losses
+        for (int i = 0; i < arrSize; i++)
+        {
+            loss[matches[i][0]] += 0;                // instantiatiation
+            loss[matches[i][1]] += 0;                // instantiatiation
+            
+            loss[matches[i][1]]++;
         }
 
-        for (int j = 1; j <= winLossCount.size(); j++) {
-            if (winLossCount[j].second == 0 && winLossCount[j].first != 0)
-                ans[0].push_back(j);
+        for (auto lossCount : loss)
+        {
+            if (lossCount.second == 0)
+                ans[0].push_back(lossCount.first);
 
-            if (winLossCount[j].second == 1)
-                ans[1].push_back(j);
+            else if (lossCount.second == 1)
+                ans[1].push_back(lossCount.first);
         }
 
         return ans;
