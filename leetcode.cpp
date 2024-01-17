@@ -6,6 +6,7 @@
 #include "SumAbsoluteDifferences.cpp"
 #include "longestConsecutive.cpp"
 #include "findWinners.cpp"
+#include "uniqueOccurrences.cpp"
 
 using namespace std;
 
@@ -171,9 +172,7 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<vector<int>> matches = { {1,3} ,{2,3}, {3,6}, {5,6}, {5,7}, {4,5}, {4,8}, {4,9}, {10,4}, {10,9} };
+    vector<int> arr = { -3,0,1,-3,1,1,1,-3,10,0 };
 
-    vector<vector<int>> ans = FindWinners::findWinners(matches);
-
-
+    bool ans = UniqueOccurrences::uniqueOccurrences(arr);
 }
