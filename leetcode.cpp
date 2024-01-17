@@ -172,7 +172,7 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<int> arr = { -3,0,1,-3,1,1,1,-3,10,0 };
+    vector<vector<int>> matches = { {1, 1000} };
 
-    bool ans = UniqueOccurrences::uniqueOccurrences(arr);
+    FindWinners::findWinners(matches);
 }
