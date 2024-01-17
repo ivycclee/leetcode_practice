@@ -21,5 +21,8 @@
     <ClCompile Include="findWinners.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="uniqueOccurrences.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
