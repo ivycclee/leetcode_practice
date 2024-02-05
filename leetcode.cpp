@@ -7,6 +7,9 @@
 #include "longestConsecutive.cpp"
 #include "findWinners.cpp"
 #include "uniqueOccurrences.cpp"
+#include "findFirstUniqueChar.cpp"
+
+#include <iostream>
 
 using namespace std;
 
@@ -172,7 +175,9 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<vector<int>> matches = { {1, 1000} };
+    string s = "aabb";
 
-    FindWinners::findWinners(matches);
+    int ans = FindFirstUniqueChar::firstUniqChar(s);
+
+    cout << ans;
 }

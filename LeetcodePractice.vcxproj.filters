@@ -24,5 +24,8 @@
     <ClCompile Include="uniqueOccurrences.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="findFirstUniqueChar.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
