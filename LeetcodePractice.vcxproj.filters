@@ -27,5 +27,6 @@
     <ClCompile Include="findFirstUniqueChar.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="laserBeams.cpp" />
   </ItemGroup>
 </Project>

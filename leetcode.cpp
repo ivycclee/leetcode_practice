@@ -8,6 +8,7 @@
 #include "findWinners.cpp"
 #include "uniqueOccurrences.cpp"
 #include "findFirstUniqueChar.cpp"
+#include "laserBeams.cpp"
 
 #include <iostream>
 
@@ -175,9 +176,9 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    string s = "aabb";
+    vector<string> bank = { "1","1" };
 
-    int ans = FindFirstUniqueChar::firstUniqChar(s);
+    int ans = LaserBeams::numberOfBeams(bank);
 
     cout << ans;
 }
