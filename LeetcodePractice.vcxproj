@@ -129,8 +129,6 @@
   <ItemGroup>
     <ClCompile Include="arrayStringsEquivalent.cpp" />
     <ClCompile Include="findFirstUniqueChar.cpp" />
-    <ClCompile Include="dailyTemperatures.cpp" />
-    <ClCompile Include="evaluateReversePolishNotation.cpp" />
     <ClCompile Include="findWinners.cpp" />
     <ClCompile Include="FoodRatings.cpp" />
     <ClCompile Include="laserBeams.cpp" />

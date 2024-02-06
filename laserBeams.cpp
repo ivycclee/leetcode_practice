@@ -1,7 +1,4 @@
-#include <vector>
-#include <string>
-
-using namespace std;
+#include "includes.h"
 
 // Medium -- no 2125 -- accepted
 class LaserBeams {

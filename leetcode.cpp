@@ -5,18 +5,13 @@
 #include "longestConsecutive.cpp"
 #include "findWinners.cpp"
 #include "uniqueOccurrences.cpp"
-<<<<<<< Updated upstream
 #include "findFirstUniqueChar.cpp"
 #include "laserBeams.cpp"
 
 #include <iostream>
 
 using namespace std;
-=======
 #include "arrayStringsEquivalent.cpp"
-#include "evaluateReversePolishNotation.cpp"
-#include "dailyTemperatures.cpp"
->>>>>>> Stashed changes
 
 struct TreeNode {
     int val;
@@ -180,13 +175,11 @@ public:
 
 int main(int argc, char const* argv[])
 {
-<<<<<<< Updated upstream
     vector<string> bank = { "1","1" };
 
     int ans = LaserBeams::numberOfBeams(bank);
 
     cout << ans;
-=======
     vector<int> temps = { 73,74,75,71,69,72,76,73 };
->>>>>>> Stashed changes
+
 }
