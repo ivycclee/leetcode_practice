@@ -131,6 +131,7 @@
     <ClCompile Include="findFirstUniqueChar.cpp" />
     <ClCompile Include="findWinners.cpp" />
     <ClCompile Include="FoodRatings.cpp" />
+    <ClCompile Include="groupAnagrams.cpp" />
     <ClCompile Include="laserBeams.cpp" />
     <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />

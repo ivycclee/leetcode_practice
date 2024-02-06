@@ -7,11 +7,12 @@
 #include "uniqueOccurrences.cpp"
 #include "findFirstUniqueChar.cpp"
 #include "laserBeams.cpp"
+#include "groupAnagrams.cpp"
+#include "arrayStringsEquivalent.cpp"
 
 #include <iostream>
 
 using namespace std;
-#include "arrayStringsEquivalent.cpp"
 
 struct TreeNode {
     int val;
@@ -175,11 +176,8 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<string> bank = { "1","1" };
+    vector<string> str = { "eat","tea","tan","ate","nat","bat" };
 
-    int ans = LaserBeams::numberOfBeams(bank);
-
-    cout << ans;
-    vector<int> temps = { 73,74,75,71,69,72,76,73 };
+    vector<vector<string>> ans = GroupAnagrams::groupAnagrams(str);
 
 }

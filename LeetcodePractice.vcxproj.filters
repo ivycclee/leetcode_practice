@@ -33,6 +33,9 @@
     <ClCompile Include="laserBeams.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="groupAnagrams.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
