@@ -128,12 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="arrayStringsEquivalent.cpp" />
-<<<<<<< Updated upstream
     <ClCompile Include="findFirstUniqueChar.cpp" />
-=======
     <ClCompile Include="dailyTemperatures.cpp" />
     <ClCompile Include="evaluateReversePolishNotation.cpp" />
->>>>>>> Stashed changes
     <ClCompile Include="findWinners.cpp" />
     <ClCompile Include="FoodRatings.cpp" />
     <ClCompile Include="laserBeams.cpp" />

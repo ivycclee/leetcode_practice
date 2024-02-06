@@ -24,12 +24,10 @@
     <ClCompile Include="uniqueOccurrences.cpp">
       <Filter>source</Filter>
     </ClCompile>
-<<<<<<< Updated upstream
     <ClCompile Include="findFirstUniqueChar.cpp">
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="laserBeams.cpp" />
-=======
     <ClCompile Include="arrayStringsEquivalent.cpp">
       <Filter>source</Filter>
     </ClCompile>
@@ -44,6 +42,5 @@
     <ClInclude Include="includes.h">
       <Filter>source</Filter>
     </ClInclude>
->>>>>>> Stashed changes
   </ItemGroup>
 </Project>
