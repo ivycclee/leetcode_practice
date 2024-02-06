@@ -1,6 +1,4 @@
-#include <vector>
-
-using namespace std;
+#include "includes.h"
 
 // medium - sum of absolute differences in a sorted array, nov 25 daily challenge
 // this works but not accepted due to exceeding time limit

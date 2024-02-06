@@ -1,8 +1,4 @@
-using namespace std;
-
-#include <vector>
-#include <map>
-#include <set>
+#include "includes.h"
 
 // no. 1207 - unique number of occur (easy) [ submitted && accepted ]
 class UniqueOccurrences

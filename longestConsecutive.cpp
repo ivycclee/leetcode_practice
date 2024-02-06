@@ -1,7 +1,4 @@
-#include <vector>
-#include <algorithm>
-
-using namespace std;
+#include "includes.h"
 
 // Problem 128 - medium
 class LongestConsecutiveSequence {
