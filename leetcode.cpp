@@ -9,6 +9,7 @@
 #include "laserBeams.cpp"
 #include "groupAnagrams.cpp"
 #include "arrayStringsEquivalent.cpp"
+#include "imageSmoother.cpp"
 
 #include <iostream>
 
@@ -176,8 +177,8 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<string> str = { "eat","tea","tan","ate","nat","bat" };
+    vector<vector<int>> img = { {100,200,100}, {200,50,200}, {100,200,100} };
 
-    vector<vector<string>> ans = GroupAnagrams::groupAnagrams(str);
+    vector<vector<int>> ans = ImageSmoother::imageSmoother(img);
 
 }
