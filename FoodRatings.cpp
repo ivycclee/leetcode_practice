@@ -1,8 +1,4 @@
-#include <vector>
-#include <string>
-#include <map>
-
-using namespace std;
+#include "includes.h"
 
 // medium (problem no. 2353) design a food rating system
 

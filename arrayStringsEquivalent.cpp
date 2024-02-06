@@ -1,7 +1,4 @@
-using namespace std;
-
-#include <vector>
-#include <string>
+#include "includes.h"
 
 // no 1662 (easy) [ accepted ]
 class ArrayStringsEquivalent {

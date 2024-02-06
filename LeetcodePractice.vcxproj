@@ -128,7 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="arrayStringsEquivalent.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="findFirstUniqueChar.cpp" />
+=======
+    <ClCompile Include="dailyTemperatures.cpp" />
+    <ClCompile Include="evaluateReversePolishNotation.cpp" />
+>>>>>>> Stashed changes
     <ClCompile Include="findWinners.cpp" />
     <ClCompile Include="FoodRatings.cpp" />
     <ClCompile Include="laserBeams.cpp" />
@@ -136,6 +141,9 @@
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="SumAbsoluteDifferences.cpp" />
     <ClCompile Include="uniqueOccurrences.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
