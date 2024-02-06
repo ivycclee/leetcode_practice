@@ -7,7 +7,10 @@
 #include "longestConsecutive.cpp"
 #include "findWinners.cpp"
 #include "uniqueOccurrences.cpp"
-#include "arrayStringsEquivalent.cpp"
+#include "findFirstUniqueChar.cpp"
+#include "laserBeams.cpp"
+
+#include <iostream>
 
 using namespace std;
 
@@ -173,8 +176,9 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<string> str1 = { "abc", "d", "defg" };
-    vector<string> str2 = { "abcddefg" };
+    vector<string> bank = { "1","1" };
 
-    bool ans = ArrayStringsEquivalent::arrayStringsAreEqual(str1, str2);
+    int ans = LaserBeams::numberOfBeams(bank);
+
+    cout << ans;
 }
