@@ -1,8 +1,4 @@
-#include <string>
-#include <unordered_map>
-
-using namespace std;
-
+#include "includes.h"
 
 // Easy -- no. 387 -- accepted
 class FindFirstUniqueChar {
