@@ -27,14 +27,10 @@
     <ClCompile Include="findFirstUniqueChar.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="laserBeams.cpp" />
     <ClCompile Include="arrayStringsEquivalent.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="evaluateReversePolishNotation.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
-    <ClCompile Include="dailyTemperatures.cpp">
+    <ClCompile Include="laserBeams.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
