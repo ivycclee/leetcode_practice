@@ -9,6 +9,8 @@
 #include "laserBeams.cpp"
 #include "groupAnagrams.cpp"
 #include "arrayStringsEquivalent.cpp"
+#include "imageSmoother.cpp"
+#include "frequencySort.cpp"
 
 #include <iostream>
 
@@ -176,8 +178,6 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<string> str = { "eat","tea","tan","ate","nat","bat" };
-
-    vector<vector<string>> ans = GroupAnagrams::groupAnagrams(str);
-
+    string s = "tree";
+    string ans = FrequencySort::frequencySort(s);
 }

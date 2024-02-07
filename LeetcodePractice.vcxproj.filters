@@ -36,6 +36,10 @@
     <ClCompile Include="groupAnagrams.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="imageSmoother.cpp" />
+    <ClCompile Include="frequencySort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
