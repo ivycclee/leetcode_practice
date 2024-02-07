@@ -10,6 +10,7 @@
 #include "groupAnagrams.cpp"
 #include "arrayStringsEquivalent.cpp"
 #include "imageSmoother.cpp"
+#include "frequencySort.cpp"
 
 #include <iostream>
 
@@ -177,8 +178,6 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<vector<int>> img = { {100,200,100}, {200,50,200}, {100,200,100} };
-
-    vector<vector<int>> ans = ImageSmoother::imageSmoother(img);
-
+    string s = "tree";
+    string ans = FrequencySort::frequencySort(s);
 }
