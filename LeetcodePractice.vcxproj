@@ -133,7 +133,6 @@
     <ClCompile Include="FoodRatings.cpp" />
     <ClCompile Include="frequencySort.cpp" />
     <ClCompile Include="groupAnagrams.cpp" />
-    <ClCompile Include="imageSmoother.cpp" />
     <ClCompile Include="laserBeams.cpp" />
     <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
