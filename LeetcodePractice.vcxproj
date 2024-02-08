@@ -140,6 +140,7 @@
     <ClCompile Include="numSquares.cpp" />
     <ClCompile Include="reversePrefix.cpp" />
     <ClCompile Include="SumAbsoluteDifferences.cpp" />
+    <ClCompile Include="treeQuestions.cpp" />
     <ClCompile Include="uniqueOccurrences.cpp" />
   </ItemGroup>
   <ItemGroup>
