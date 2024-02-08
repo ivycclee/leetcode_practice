@@ -136,6 +136,7 @@
     <ClCompile Include="laserBeams.cpp" />
     <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
+    <ClCompile Include="reversePrefix.cpp" />
     <ClCompile Include="SumAbsoluteDifferences.cpp" />
     <ClCompile Include="uniqueOccurrences.cpp" />
   </ItemGroup>

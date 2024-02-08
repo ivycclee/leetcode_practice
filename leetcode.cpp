@@ -9,8 +9,8 @@
 #include "laserBeams.cpp"
 #include "groupAnagrams.cpp"
 #include "arrayStringsEquivalent.cpp"
-#include "imageSmoother.cpp"
 #include "frequencySort.cpp"
+#include "reversePrefix.cpp"
 
 #include <iostream>
 
@@ -178,6 +178,7 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    string s = "tree";
-    string ans = FrequencySort::frequencySort(s);
+    string s = "abcdefd";
+    char ch = 'd';
+    string ans = ReversePrefix::reversePrefix(s, ch);
 }
