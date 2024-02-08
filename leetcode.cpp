@@ -11,6 +11,9 @@
 #include "arrayStringsEquivalent.cpp"
 #include "frequencySort.cpp"
 #include "reversePrefix.cpp"
+#include "numSquares.cpp"
+#include "lengthOfLongestSubstring.cpp"
+#include "treeQuestions.cpp"
 
 #include <iostream>
 
@@ -178,7 +181,14 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    string s = "abcdefd";
-    char ch = 'd';
-    string ans = ReversePrefix::reversePrefix(s, ch);
+    Node * root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+    root->left->left = new Node(4);
+    root->left->right = new Node(5);
+    root->right->left = new Node(6);
+    root->right->right = new Node(7);
+
+    TreeQuestions::connect(root);
+    
 }
