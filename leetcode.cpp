@@ -12,6 +12,7 @@
 #include "frequencySort.cpp"
 #include "reversePrefix.cpp"
 #include "numSquares.cpp"
+#include "lengthOfLongestSubstring.cpp"
 
 #include <iostream>
 
@@ -179,6 +180,5 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    int numSquares = NumSquares::numSquares(12);
-    cout << numSquares;
+    int ans = LongestSubstring::lengthOfLongestSubstring("au");
 }

@@ -135,6 +135,7 @@
     <ClCompile Include="groupAnagrams.cpp" />
     <ClCompile Include="laserBeams.cpp" />
     <ClCompile Include="leetcode.cpp" />
+    <ClCompile Include="lengthOfLongestSubstring.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="numSquares.cpp" />
     <ClCompile Include="reversePrefix.cpp" />
