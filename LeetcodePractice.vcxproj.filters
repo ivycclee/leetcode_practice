@@ -42,6 +42,9 @@
     <ClCompile Include="reversePrefix.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="numSquares.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">

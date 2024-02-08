@@ -11,6 +11,7 @@
 #include "arrayStringsEquivalent.cpp"
 #include "frequencySort.cpp"
 #include "reversePrefix.cpp"
+#include "numSquares.cpp"
 
 #include <iostream>
 
@@ -178,7 +179,6 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    string s = "abcdefd";
-    char ch = 'd';
-    string ans = ReversePrefix::reversePrefix(s, ch);
+    int numSquares = NumSquares::numSquares(12);
+    cout << numSquares;
 }
