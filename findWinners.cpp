@@ -10,7 +10,7 @@ public:
 	static vector<vector<int>> findWinners(vector<vector<int>>& matches) {
         vector<vector<int>> ans;
         ans.resize(2);
-        int arrSize = matches.size();
+        auto arrSize = matches.size();
       
         map<int, int> loss;
 

@@ -4,7 +4,7 @@
 class LargestDivisibleSubset {
 public:
     static vector<int> largestDivisibleSubset(vector<int>& nums) {
-        int n = nums.size();
+        auto n = nums.size();
         int temp_max = 1;
         int previous_value = -1;
         
@@ -30,7 +30,7 @@ public:
             }
         }
 
-        for (int i = n-1; i >= 0; i--)
+        for (auto i = n-1; i >= 0; i--)
         {
             if ((temp[i] == temp_max) && (previous_value == -1 || previous_value % nums[i] == 0))
             {
