@@ -15,6 +15,7 @@
 #include "lengthOfLongestSubstring.cpp"
 #include "treeQuestions.cpp"
 #include "largestDivisibleSubset.cpp"
+#include "sortByNumBits.cpp"
 
 #include <iostream>
 

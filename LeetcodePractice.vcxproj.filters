@@ -51,6 +51,10 @@
     <ClCompile Include="treeQuestions.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="largestDivisibleSubset.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="sortByNumBits.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
