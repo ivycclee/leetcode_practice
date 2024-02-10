@@ -5,7 +5,7 @@ class UniqueOccurrences
 {
 public:
 	static bool uniqueOccurrences(vector<int>& arr) {
-		int arrSize = arr.size();
+		auto arrSize = arr.size();
 		map<int, int> occurrencesCount;
 		set<int> occurrences;
 

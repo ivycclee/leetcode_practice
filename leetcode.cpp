@@ -15,6 +15,8 @@
 #include "lengthOfLongestSubstring.cpp"
 #include "treeQuestions.cpp"
 #include "largestDivisibleSubset.cpp"
+#include "sortByNumBits.cpp"
+#include "palindromicSubstrings.cpp"
 
 #include <iostream>
 
@@ -68,7 +70,7 @@ public:
         // now populate return vector with correct order
         for (int i = 0; i < tempMap.size(); i++)
         {
-            for (int j = (tempMap[i].size() - 1); j >= 0; j--)
+            for (auto j = (tempMap[i].size() - 1); j >= 0; j--)
             {
                 returnVector.push_back(tempMap[i][j]);
             }
@@ -164,12 +166,12 @@ public:
 
     // Medium - maximum number of coins
     static int maxCoins(vector<int>& piles) {
-        int coinsPerPerson = piles.size() / 3;
+        auto coinsPerPerson = piles.size() / 3;
         int sum = 0;
 
         sort(piles.begin(), piles.end());       // sort in order
 
-        for (int i = coinsPerPerson; i < piles.size(); i += 2)
+        for (auto i = coinsPerPerson; i < piles.size(); i += 2)
             sum += piles[i];
 
        return sum;
@@ -182,8 +184,7 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<int> nums = { 1, 2, 4, 8, 16 };
-
-    vector<int> ans = LargestDivisibleSubset::largestDivisibleSubset(nums);
+    string s = "aba";
     
+    int ans = PalindromicSubstrings::countSubstrings(s);
 }

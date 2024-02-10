@@ -17,7 +17,7 @@ public:
 
 		for (i = 0; i < sqrt(n); i++)
 		{
-			y = sqrt(n - (i * i));
+			y = (int)sqrt(n - (i * i));
 
 			if ((i * i) + (y * y) == n) {
 				if (i == 0 || y == 0) return 1;
