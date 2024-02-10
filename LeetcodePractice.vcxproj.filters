@@ -54,7 +54,12 @@
     <ClCompile Include="largestDivisibleSubset.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="sortByNumBits.cpp" />
+    <ClCompile Include="sortByNumBits.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="palindromicSubstrings.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">

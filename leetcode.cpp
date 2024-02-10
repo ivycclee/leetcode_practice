@@ -16,6 +16,7 @@
 #include "treeQuestions.cpp"
 #include "largestDivisibleSubset.cpp"
 #include "sortByNumBits.cpp"
+#include "palindromicSubstrings.cpp"
 
 #include <iostream>
 
@@ -183,8 +184,7 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<int> nums = { 1, 2, 4, 8, 16 };
-
-    vector<int> ans = LargestDivisibleSubset::largestDivisibleSubset(nums);
+    string s = "aba";
     
+    int ans = PalindromicSubstrings::countSubstrings(s);
 }

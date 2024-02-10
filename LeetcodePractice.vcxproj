@@ -139,6 +139,7 @@
     <ClCompile Include="lengthOfLongestSubstring.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="numSquares.cpp" />
+    <ClCompile Include="palindromicSubstrings.cpp" />
     <ClCompile Include="reversePrefix.cpp" />
     <ClCompile Include="sortByNumBits.cpp" />
     <ClCompile Include="SumAbsoluteDifferences.cpp" />
