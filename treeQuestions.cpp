@@ -15,9 +15,10 @@ public:
         : val(_val), left(_left), right(_right), next(_next) {}
 };
 
-// Medium -- #116 -- accepted
+
 class TreeQuestions {
 public:
+    // Medium -- #116 -- accepted
     static Node* connect(Node* root) {
         if (root == NULL) return root;
         Node* current;
@@ -48,4 +49,5 @@ public:
 
         return root;
     }
+
 };

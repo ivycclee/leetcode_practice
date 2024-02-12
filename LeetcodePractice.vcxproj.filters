@@ -57,6 +57,8 @@
     <ClCompile Include="sortByNumBits.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="stringToInteger.cpp" />
+    <Filter>source</Filter>
     <ClCompile Include="palindromicSubstrings.cpp">
       <Filter>source</Filter>
     </ClCompile>

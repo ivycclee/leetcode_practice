@@ -142,6 +142,7 @@
     <ClCompile Include="palindromicSubstrings.cpp" />
     <ClCompile Include="reversePrefix.cpp" />
     <ClCompile Include="sortByNumBits.cpp" />
+    <ClCompile Include="stringToInteger.cpp" />
     <ClCompile Include="SumAbsoluteDifferences.cpp" />
     <ClCompile Include="treeQuestions.cpp" />
     <ClCompile Include="uniqueOccurrences.cpp" />
