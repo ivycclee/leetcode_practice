@@ -16,6 +16,8 @@
 #include "treeQuestions.cpp"
 #include "largestDivisibleSubset.cpp"
 #include "sortByNumBits.cpp"
+#include "stringToInteger.cpp"
+#include "majorityElement.cpp"
 
 #include <iostream>
 
@@ -183,8 +185,8 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    vector<int> nums = { 1, 2, 4, 8, 16 };
+    string num = "   42";
 
-    vector<int> ans = LargestDivisibleSubset::largestDivisibleSubset(nums);
+    int ans = StringToInteger::myAtoi(num);
     
 }
