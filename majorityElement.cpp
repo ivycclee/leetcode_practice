@@ -1,6 +1,6 @@
 #include "includes.h"
 
-// Easy -- #169
+// Easy -- #169 -- accepted
 class MajorityElement {
 public:
     int majorityElement(vector<int>& nums) {
