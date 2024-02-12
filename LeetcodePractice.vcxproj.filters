@@ -59,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="stringToInteger.cpp" />
     <Filter>source</Filter>
+    <ClCompile Include="palindromicSubstrings.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">

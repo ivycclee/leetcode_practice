@@ -18,6 +18,7 @@
 #include "sortByNumBits.cpp"
 #include "stringToInteger.cpp"
 #include "majorityElement.cpp"
+#include "palindromicSubstrings.cpp"
 
 #include <iostream>
 
@@ -188,5 +189,4 @@ int main(int argc, char const* argv[])
     string num = "   42";
 
     int ans = StringToInteger::myAtoi(num);
-    
 }
