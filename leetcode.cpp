@@ -16,6 +16,8 @@
 #include "treeQuestions.cpp"
 #include "largestDivisibleSubset.cpp"
 #include "sortByNumBits.cpp"
+#include "stringToInteger.cpp"
+#include "majorityElement.cpp"
 #include "palindromicSubstrings.cpp"
 
 #include <iostream>
@@ -184,7 +186,7 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    string s = "aba";
-    
-    int ans = PalindromicSubstrings::countSubstrings(s);
+    string num = "   42";
+
+    int ans = StringToInteger::myAtoi(num);
 }
