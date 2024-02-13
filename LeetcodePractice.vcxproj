@@ -130,6 +130,7 @@
     <ClCompile Include="arrayStringsEquivalent.cpp" />
     <ClCompile Include="findFirstUniqueChar.cpp" />
     <ClCompile Include="findWinners.cpp" />
+    <ClCompile Include="firstPalindrome.cpp" />
     <ClCompile Include="FoodRatings.cpp" />
     <ClCompile Include="frequencySort.cpp" />
     <ClCompile Include="groupAnagrams.cpp" />

@@ -63,6 +63,9 @@
     <ClCompile Include="palindromicSubstrings.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="firstPalindrome.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
