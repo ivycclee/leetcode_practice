@@ -19,6 +19,7 @@
 #include "stringToInteger.cpp"
 #include "majorityElement.cpp"
 #include "palindromicSubstrings.cpp"
+#include "maxOddBinaryNumber.cpp"
 
 #include <iostream>
 
@@ -186,7 +187,6 @@ public:
 
 int main(int argc, char const* argv[])
 {
-    string num = "   42";
-
-    int ans = StringToInteger::myAtoi(num);
+    string ans = MaxOddBinaryNumber::MaxOddBinary("010");
+    std::cout << ans;
 }
